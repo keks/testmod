@@ -8,4 +8,5 @@ import (
 
 func main() {
 	fmt.Println("child is child:", child.IsChild)
+	fmt.Println("child is leaf:", child.IsLeaf)
 }
